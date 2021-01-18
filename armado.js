@@ -85,7 +85,7 @@ class PC {
       );
     });
     DOM.addEventListener(BUTTON_PROCESSORS, "click", () => {
-      this.setRams(
+      this.setProcessors(
         this.request.requestData("http://demo6292426.mockable.io/processors")
       );
     });
